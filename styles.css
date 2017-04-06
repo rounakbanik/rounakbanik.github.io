@@ -1,0 +1,151 @@
+* {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+@media only screen and (max-width: 480px) {
+	.bio {
+		padding: 3px !important;
+		margin-top: 15px;
+	}
+}
+
+body {
+	font-family: 'Noto Sans', sans-serif;
+	font-weight: 400;
+	margin: 0px;
+	padding: 0px;
+	overflow-x: hidden;
+}
+
+.navbar {
+	margin-bottom: 0px !important;
+	padding: 12px !important;
+	background-color: #FFB000!important;
+	border: 0 !important;
+	border-radius: 0 !important;
+}
+
+.navbar li a, .navbar-brand {
+	font-size: 16px;
+	font-weight: 700;
+	color: black !important;
+	padding-right: 0px;
+	padding-left: 0px;
+	margin: 15px;
+	padding-bottom: 5px;
+}
+
+.navbar li a:hover {
+	border-bottom: 3px solid black;
+	cursor: pointer;
+}
+
+
+.main-frame {
+  background: url(images/background2.jpg) no-repeat center center fixed;
+	background-size: cover;
+	height: 90vh;
+}
+
+.main-info h1 {
+	color: black;
+}
+
+.main-info {
+	margin: 100px auto;
+}
+
+.about, .portfolio, .contact {
+	color: black;
+	margin-bottom: 80px;
+}
+
+.about h2, .portfolio h2, .contact h2 {
+	font-weight: 700;
+	font-size: 36px;
+	padding-bottom: 5px;
+	margin: 20px 0px;
+	margin-bottom: 40px;
+}
+
+.underline {
+	border-bottom: 1px solid #ffb000;
+}
+
+.about .row {
+	margin: 20px 0px;
+	box-shadow: 5px 5px 5px 0px rgba(205,200,205,1);
+}
+
+.about .col-md-5 {
+	padding: 0px;
+}
+
+.about img {
+	width: 100%;
+}
+
+.bio {
+	padding: 25px;
+}
+
+.bio p {
+	font-size: 15.5px;
+}
+
+.portfolio {
+	margin: 30px 0px;
+	background-color: #ffb000;
+}
+
+.portfolio .row {
+	margin: 35px 0px;
+}
+
+.portfolio .col-md-3 {
+	padding: 15px;
+}
+
+.card {
+	background-color: white;
+	box-shadow: 5px 5px 5px 0px rgba(135,130, 135,1);
+}
+
+.card img {
+	width: 100%;
+}
+
+.card h3 {
+	font-weight: 700;
+	text-align: center;
+}
+
+.card h3, .card p {
+	padding: 10px;
+}
+
+.card:hover {
+	transform: scale(1.1);
+	transition-duration: 0.1s;
+}
+
+.contact h2 {
+	margin: 40px 0px;
+}
+
+.contact p {
+	font-size: 15.5px;
+}
+
+.contact button {
+	padding: 12px;
+	background-color: #ffb000;
+	color: white;
+	border: 0px;
+	box-shadow: 3px 3px 3px 0px rgba(205,200,205,1);
+}
+
+.contact button:hover {
+	background-color: orange;
+	transition-duration: 0.2s;
+}
